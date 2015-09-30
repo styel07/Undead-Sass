@@ -1,70 +1,15 @@
 # Undead Sass
 
-## Sass and Gulp exercise
+## Scss and Gulp exercise
 
 ### Goals
 
 _in your own forked repo_
 
-1. setup gulp to watches and compiles sass files to the public css directory
-2. use sass to style `index.html` so that it matches the layouts in the `layouts` directory
+1. Setup a [Gulp+Sass+LiveReload](https://gist.github.com/kellishouts/2c7cde625491ad53fb3c) workflow so that gulp watches and compiles sass files to a public css directory.
 
-_you may accomplish these goals without following the steps outlined below_
+2. Use scss to style `index.html` so that it matches the layouts in the `layouts` directory. You can view the [complete demo project](http://gomagames.com/undead/) to inspect styles.
 
-### Steps to achieve goals
+7. You should be able to complete this exercise without modifying the html at all.
 
-### setup forked repo
-
-1. fork and clone this repo
-
-### make sure you have all required dependencies
-
-_If you have not have npm and gulp, you need to install them._
-
-1. `brew install npm`
-2. `npm install -g gulp`
-
-### setup gulp + sass
-
-1. initialize your forked project with npm libs, `npm init`
-2. setup your `.gitignore` file to ignore `node_modules`
-3. add and commit your 2 new files to be tracked in git
-4. install and save required dependencies using `npm install -D [node_module name]`
-  1. `gulp`
-  2. `gulp-sass`
-5. setup sass source directory `mkdir sass/`
-6. setup sass source file `touch sass/styles.scss`
-7. setup sass compiled output directory `mkdir public/css`
-8. setup Gulpfile `touch gulpfile.js`
-9. setup Gulpfile task, with `watch_sass` and `default` tasks
-  1. `subl gulpfile.js`
-  2. [contents of gulpfile.js](http://i.imgur.com/ql5LvCO.png)
-10. test gulp task
-  1. 'hello world' of sass, `subl sass/styles.scss`
-    ````
-    $dark-color : #333333;
-    
-    body {
-      background: $dark-color;
-    }
-    ````
-  2. run `gulp` in your terminal
-  3. check output, `ls public/css` (should say styles.css)
-  4. inspect output, `cat public/css/styles.css` ( should be proper css )
-11. once gulp and sass are wired up correctly, commit your new files
-12. make sure to keep your "gulp" terminal running and visible, if your sass source is invalid, it will crash the watching gulp process, and you will want to see the error message that will output in that terminal. Then you can restart your `gulp` watcher after fixing your errors.
-
-### style index.html
-
-1. (on a seperate terminal, since gulp is being held open), navigate to your `public/` subdirectory, then run an `http-server`
-2. open a browser to make sure you can see `public/index.html` rendered
-3. setup your `public/index.html` to link to your `public/css/styles.css` stylesheet.
-4. If it works, your background shold be gray. commit your work.
-5. Create a `partials` directory inside the `sass` directory and add a `reset.scss` file that contains a `clearfix` style and a `css reset`. Import the reset file into your `styles.scss` file at the top of the document.
-6. Import the `Droid Serif` Google font into your `styles.scss` file at the top of the document, after importing the reset file. The format of the import should look like this: 
-  
-  ```
-  @import "http://fonts.googleapis.com/css?family=Droid+Serif:400,700.css";
-  ```
-
-7. Editing only your `sass/styles.scss` file, style your html page so that it matches the layout in the `layouts` directory.
+_Refer to the demo project and use the Chrome inspector. It is more important that you focus on setting up proper scss structure, rather than spending time to figure out all the css properties on your own._

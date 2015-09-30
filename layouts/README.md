@@ -1,10 +1,10 @@
 # Design Specs
 
 
-## Fonts
+## Typography
 
-- Use a 16px base font size.
-- Droid Serif is the global font.
+- Use a 16px base font size (body)
+- Droid Serif is the global font (import into the scss file, or add link markup to html)
 
 
 ## Media Queries

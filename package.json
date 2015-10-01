@@ -1,0 +1,19 @@
+{
+  "name": "undead-sass",
+  "version": "1.0.0",
+  "description": "## Scss and Gulp exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styel07/Undead-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/styel07/Undead-Sass/issues"
+  },
+  "homepage": "https://github.com/styel07/Undead-Sass#readme"
+}

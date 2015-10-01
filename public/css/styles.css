@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 18, stdin */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,29 +24,36 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+/* line 29, stdin */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* line 32, stdin */
 body {
   line-height: 1; }
 
+/* line 35, stdin */
 ol, ul {
   list-style: none; }
 
+/* line 38, stdin */
 blockquote, q {
   quotes: none; }
 
+/* line 42, stdin */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
+/* line 46, stdin */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
 /* After Reset */
+/* line 53, stdin */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -54,14 +62,20 @@ table {
   clear: both;
   height: 0; }
 
+/* line 61, stdin */
 .clearfix {
   display: inline-block; }
 
 /* start commented backslash hack \*/
+/* line 63, stdin */
 * html .clearfix {
   height: 1%; }
 
+/* line 64, stdin */
 .clearfix {
   display: block; }
 
 /* close commented backslash hack */
+/* line 74, stdin */
+body {
+  background-color: #eff9ec; }

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/styel07/Undead-Sass/issues"
   },
-  "homepage": "https://github.com/styel07/Undead-Sass#readme"
+  "homepage": "https://github.com/styel07/Undead-Sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.4"
+  }
 }
